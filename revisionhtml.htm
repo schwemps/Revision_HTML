@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Revision 2020</title>
+
+</head>
+
+<body>
+    <h1>Revision de HTML 5</h1>
+    <h3>Attributes</h3>
+    <strong><p>Exercise 1</p></strong>
+    <div>
+        Add a "tooltip" to the paragraph below with the text "About W3Schools"<br /> &ltp <strong>title</strong>="About W3Schools"&gt W3Schools is a web developer's site.&lt/p&gt<br />
+        <p title="About W3Schools">W3Schools is a web developer's site.</p>
+
+    </div>
+    <strong><p>Exercise 2</p></strong>
+    <div>
+        Set the size of the image to 250 pixels wide and 400 pixels tall.<br /> &ltimg src="w3schools.jpg" width="250" height="400"&gt<br />
+        <div>
+            <img src="Nothing.jpg" width="250" height="400" />
+        </div>
+    </div>
+    <strong><p>Exercise 3</p></strong>
+    <div>
+        Make the element below into a link that goes to "https://www.w3schools.com".</br> &lta href = "https://www.w3schools.com"&gtThis is a link&lt/a&gt
+        <a href="https://www.w3schools.com">This is a link</a>
+    </div>
+    <strong><p>Exercise 4</p></strong>
+    <div>
+        Specify an alternate text for the image. Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader. </br>
+        &ltimg src="w3schools.png"="w3schools Logo"&gt
+        <img src="w3schools.png"="w3schools Logo">
+    </div>
+
+    <div>
+        <h3>Headings</h3>
+        <strong><p>Exercise 1</p></strong> Use the correct HTML tag to add a heading with the text "London".</br>
+        &lth1&gtLondon/h1&gt London is the capital city of England. It is the most populous city in the United Kingdom,</br>
+        with a metropolitan area of over 13 million inhabitants.</br>
+        <h1>London </h1>
+        <strong><p>Exercise 2</p></strong> Add six headings to the document with the text "Hello".</br>
+        Start with the most important heading (the largest) and end with the </br>
+        least important heading (the smallest). &lth1&gtHello&lt/h1&gt
+        <br /> &lth2&gtHello&lt/h2&gt
+        <br /> &lth3&gtHello&lt/h3&gt
+        <br /> &lth4&gtHello&lt/h4&gt
+        <br /> &lth5&gtHello&lt/h5&gt
+        <br /> &lth6&gtHello&lt/h6&gt
+        <br />
+
+        <h1>Hello</h1>
+        <h2>Hello</h2>
+        <h3>Hello</h3>
+        <h4>Hello</h4>
+        <h5>Hello</h5>
+        <h6>Hello</h6>
+    </div>
+    <strong><p>Exercise 3</p></strong>
+    <div>
+        Mark up the text with appropriate tags:<br /> "Universal Studios Presents" is the most important heading.<br /> "Jurassic Park" is the next most important heading.<br /> "About" is the third most important heading.<br /> The last sentence is just
+        a paragraph.<br /> Start with the most important heading (the largest) and end with the least important heading (the smallest).<br /> &lth1&gtUniversal Studios Presents&lt/h1&gt is the most important heading.
+        <br /> &lth2&gtJurassic Park&lt/h2&gt is the next most important heading.<br /> &lth3&gtAbout&lth3&gt is the third most important heading.<br /> &ltp&gtOn the Island of Isla Nublar, a new park has been built: Jurassic Park is a theme park of cloned
+        dinosaurs!!
+        <br /><br />
+
+        <h1>Universal Studios Presents</h1>
+        is the most important heading.<br />
+        <h2>Jurassic Park</h2>
+        is the next most important heading.<br />
+        <h3>About</h3>
+        is the third most important heading.<br />
+        <p>
+            On the Island of Isla Nublar, a new park has been built:</br>
+            Jurassic Park is a theme park of cloned dinosaurs!!
+        </p>
+    </div>
+
+    <h3>Paragraphs</h3>
+    <strong><p>Exercise 1</p></strong>
+    <div>
+        Use the correct HTML tag to add a paragraph with the text "Hello World!". <br/> &ltp&gtHello World!&lt/p&gt<br />
+
+        <p>Hello World!</p>
+    </div>
+    <strong><p>Exercise 2</p></strong>
+    <div>
+        Clean up this document with proper end tags.</br>
+        &lth1&gtThis is a Heading&lt/h1&gt<br /> &ltp&gtThis is a paragraph.&lt/p&gt<br />
+
+        <h1>This is a Heading
+        </h1>
+        <p>This is a paragraph.
+        </p>
+
+    </div>
+    <strong><p>Exercise 3</p></strong>
+    <div>
+        Add a horizontal rule between the heading and the paragraph.</br>
+
+        &lth1&gtLondon&lt/h1&gt </br>
+        &lthr&gt
+        <h1>London</h1>
+        <hr>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        </br>
+
+    </div>
+    <strong><p>Exercise 4</p></strong>
+    <div>Add a line break in the middle of the paragraph:<br/> &ltp&gtMy Bonnie lies &ltbr&gt over the ocean.&lt/p&gt<br/>
+        <p>
+            My Bonnie lies
+            <br/> over the ocean.
+        </p>
+    </div>
+    <strong><p>Exercise 5</p></strong>
+    <div>
+        Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.<br /> &ltpre&gt My Bonnie lies over the ocean.<br /> My Bonnie lies over the sea.<br /> My Bonnie lies over the ocean.<br /> Oh, bring
+        back my Bonnie to me.<br /> &lt/pre&gt
+
+        <pre>
+            My Bonnie lies over the ocean.
+            My Bonnie lies over the sea.
+            My Bonnie lies over the ocean.
+            Oh, bring back my Bonnie to me.
+        </pre></br>
+    </div>
+
+    <h3>Styles</h3>
+    <strong><p>Exercise 1</p></strong> Use CSS to set the font of the paragraph to "courier".<br /> &ltp style="font-style:courier;"&gtThis is a paragraph.&lt/p&gt</br>
+    <p style="font-family:courier;">This is a paragraph.</p>
+    </br>
+    </br>
+    </div>
+    <strong><p>Exercise 2</p></strong>
+    <div>
+        Use CSS to center align the paragraph.</br>
+        &ltp style="text-align:center;"&gtThis is a paragraph.&lt/p&gt</br>
+        <p style="text-align:center;">This is a paragraph.</p>
+        </br>
+        </br>
+    </div>
+    <div>
+
+        Use CSS to set the text size to 50 pixels.</br>
+        &ltp style="font-size:50px;"&gtThis is a paragraph.&lt/p&gt</br>
+
+        <p style="font-size:50px;">This is a paragraph.</p>
+        </br>
+        Use CSS to set the background-color of the document to yellow.</br>
+        &ltbody style="background-color:yellow;"&gt</br>
+
+        <div style="background-color:yellow;">
+            <p>This is a heading</p>
+            <p>This is a paragraph</p>
+        </div>
+        Use CSS to center align the document.</br>
+        &ltbody style="text-align:center;"&gt &lth5&gtThis is a heading&lt/h5&gt &ltp&gtThis is a paragraph.&lt/p&gt</br>
+        <h5 style="text-align:center;">This is a heading</h5>
+        <p style="text-align:center;">This is a paragraph.</p>
+        <div>
+
+        </div>
+
+        <h3>Formatting</h3>
+        <strong><p>Exercise 1</p></strong>
+        <di>
+            Add extra importance to the word "degradation" in the paragraph below.</br>
+            &ltp&gt WWF's mission is to stop the &ltstrong&gtdegradation&lt/strong&gt of our planet's natural environment.&lt/p&gt
+            </br>
+            <p>
+                WWF's mission is to stop the <strong>degradation</strong> of our planet's natural environment.</br>
+            </p>
+            </br>
+        </di>
+        <strong><p>Exercise 2</p></strong>
+        <div>
+            Emphasize the word "metropolitan" in the text below.</br>
+            &ltp&gtTokyo is the capital of Japan, the most populous &ltem&gtmetropolitan&lt/em&gt area in the world.&lt/p&gt</br>
+            <p>Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.</p>
+
+        </div>
+        <strong><p>Exercise 3</p></strong>
+        <div>
+            Highlight the word "FUN" in the text below.</br>
+            &ltp&gtHTML is &ltmark&gtFUN&lt/mark&gt to learn! &lt/p&gt</br>
+            <p>HTML is <mark>FUN</mark> to learn! </p>
+        </div>
+        <strong><p>Exercise 4</p></strong>
+        <div>
+            Apply subscript formatting to the number "2" in the text below.</br>
+            &ltp&gtH &ltsub&gt2&lt/sub&gt O is the scientific term for water. &lt/p&gt</br>
+            <p>H <sub>2</sub> O is the scientific term for water. </p>
+
+        </div>
+        <strong><p>Exercise 5</p></strong>
+        <div>
+            Add a line through (strikeout) the letters "blue" in the text below.</br>
+            &ltp&gtMy favorite color is &ltdel&gtblue&lt/del&gt red. &lt/p&gt</br>
+            <p>My favorite color is <del>blue</del> red. </p>
+
+        </div>
+        <h3>Quotations</h3>
+        <strong><p>Exercise 1</p></strong>
+        <div>
+            Use an HTML element to add quotation marks around the letters "cool".</br>
+            &ltp&gtI am so &ltq&gtcool&lt/q&gt.&lt/p&gt</br>
+            <p>I am so <q>cool</q>.</p>
+
+        </div>
+        <strong><p>Exercise 2</p></strong>
+        <div>
+            The text below should be a quoted section.</br>
+            Add the proper HTML element to it, and specify that it is quoted from the following URL:</br>
+            http://www.worldwildlife.org/who/index.html</br>
+
+            &ltblockquote cite ="http://www.worldwildlife.org/who/index.html"&gt For 50 years, WWF has been protecting the future of nature. </br>The world's leading conservation organization,
+            </br>WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally. &lt/blockquote&gt
+            </br>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,</br>
+                WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            </blockquote>
+
+        </div>
+        <strong><p>Exercise 3</p></strong>
+        <div>
+            Make the text below go right-to-left.</br>
+            &ltbdo dir="rtl"&gt What a beautiful day! &lt/bdo&gt</br>
+
+            <bdo dir="rtl"> What a beautiful day! </bdo></br>
+            </br>
+        </div>
+        <strong><p>Exercise 4</p></strong>
+        <div>
+            The letters "WHO" in the text below is an abbreviation of "World Health Organization".</br>
+            Use an HTML element to provide the specified abbreviation of "WHO".</br>
+            &ltp&gtThe &ltabbr title="World Health Organization"&gt WHO&lt/abbr&gt was founded in 1948.&lt/p&gt</br>
+            <p>The <abbr title="World Health Organization"> WHO</abbr> was founded in 1948.</p>
+        </div>
+
+        <h3>Comments</h3>
+        <strong><p>Exercise 1</p></strong>
+        <div>
+            Use the HTML comment tag to make a comment out of the "This is a comment" text.</br>
+            &lth1&gtThis is a heading&lt/h1&gt</br>
+            &lt!--This is a comment --&gt</br>
+            &ltp&gtThis is a paragraph.&lt/p&gt</br>
+
+            <h1>This is a heading</h1>
+            </br>
+            <!--This is a comment -->
+            </br>
+            <p>This is a paragraph.</p>
+
+        </div>
+        <strong><p>Exercise 2</p></strong>
+        <div>
+            Add comment tags around the paragraph:</br>
+            &lt!--&ltp&gtThis is a paragraph.&lt/p&gt--&gt</br>
+            <!--<p>This is a paragraph.</p>-->
+
+        </div>
+        <h3>CSS</h3>
+        <strong><p>Exercise 1</p></strong>
+        <div>
+            Use CSS to set the background color of the document (body) to yellow.</br>
+            &ltstyle&gt body{background-color:yellow;}&lt/style&gt</br>
+            <style>
+                #Ex1 {
+                    background-color: yellow;
+                }
+            </style>
+            <div id="Ex1">
+                <h1>My Home Page</h1>
+            </div>
+
+        </div>
+        <strong><p>Exercise 2</p></strong>
+        <div>
+            Use CSS to set the font of the document to "courier".</br>
+            &ltstyle&gt body {font-family:courier;} &lt/style&gt</br>
+
+            <style>
+                #Ex2 {
+                    font-family: courier;
+                }
+            </style>
+            <div id="Ex2">
+                <h1>My Home Page</h1>
+            </div>
+            </br>
+
+        </div>
+        <strong><p>Exercise 3</p></strong>
+        <div>
+            Use CSS to set the text color of the document to red.</br>
+            &ltstyle&gt body {color:red;}&lt/style&gt</br>
+            <style>
+                #Ex3 {
+                    color: red;
+                }
+            </style>
+            <div id=Ex3>
+                <h1>My Home Page</h1>
+            </div>
+
+        </div>
+        <strong><p>Exercise 4</p></strong>
+        <div>
+            Use CSS to make a yellow, 1 pixel thick, border around all paragraphs.</br>
+            &ltstyle&gt p{border: 1px solid yellow;}&lt/style&gt</br>
+
+            <style>
+                #pixel {
+                    border: 1px solid green;
+                }
+            </style>
+
+            <p id="pixel">This is a paragraph.</p>
+            <p id="pixel">This is a paragraph.</p>
+            <p id="pixel">This is a paragraph.</p>
+            </p>
+            </br>
+
+        </div>
+
+        <h3>Links</h3>
+        <strong><p>Exercise 1</p></strong>
+        <div>
+            Use the correct HTML to make the text below into a link to "default.html".</br>
+            &lta href="default.html"&gtVisit our HTML tutorial.&lt/a&gt</br>
+
+            <a href="default.html">Visit our HTML tutorial.</a>
+
+        </div>
+        <strong><p>Exercise 2</p></strong>
+        <div>
+            Use CSS to remove the underline from the link.</br>
+            &lta href="html_images.asp" style="text-decoration:none"&ltHTML Images&lt/a&gt</br>
+
+            <a href="html_images.asp" style="text-decoration:none">HTML Images</a>
+
+        </div>
+        <strong><p>Exercise 3</p></strong>
+        <div>
+            Use the correct HTML attribute to make the link open in a new window.</br>
+            &lta href="html_images.asp" target="_blank"&gt HTML Images&lt/a&gt</br>
+
+            <a href="html_images.asp" target="_blank"> HTML Images</a>
+
+        </div>
+        <strong><p>Exercise 4</p></strong>
+        <div>
+            Use the correct HTML to make the image become a link to "default.html".</br>
+            &lta href="default.html"&gt &ltimg src="smiley.gif"&gt &lt/a&gt</br>
+
+            <div>
+                <a href="default.html"> <img src="smile.gif"> </a>
+
+            </div>
+            <strong><p>Exercise 5</p></strong>
+            <div>
+                Add a "tooltip" to the link. The "tooltip" should say "Home".</br>
+                &lta href="default.html" title="Home"&gtBack to Home&lt/a&gt</br>
+
+                <a href="default.html" title="Home">Back to Home</a>
+            </div>
+
+
+            <h3>Images</h3>
+            <strong><p>Exercise 1</p></strong>
+            <div>
+                Use the HTML image attributes to set the size of the image to 250 pixels wide and 400 pixels tall.</br>
+                &ltimg src="scream.png" width="250" height="400"&gt</br>
+
+                <img src="scream.png" width="250" height="400"></br>
+                </br>
+
+            </div>
+            <strong><p>Exercise 2</p></strong>
+            <div>
+                Use CSS to set the size of the image to 250 pixels wide and 400 pixels tall.</br>
+                &ltimg src="scream.png" style="width:250px;height:400px;"&gt</br>
+
+                <img src="scream.png" style="width:250px;height:400px;"></br>
+
+            </div>
+            <strong><p>Exercise 3</p></strong>
+            <div>
+                Use the correct HTML to make the image become a link to "default.html".</br>
+                &lta href="default.html"&gt &ltimg src="scream.jpg"&gt &lt/a&gt</br>
+
+                <a href="default.html"> <img src="scream.jpg"> </a>
+
+            </div>
+            <strong><p>Exercise 4</p></strong>
+            <div>
+                Make the image below float to the right of the paragraph.</br>
+                &ltp&gt&ltimg src="scream.jpg" style="float:right;"&gtThis is a paragraph.This paragraph contains an image&lt/p&gt</br>
+
+                <p><img src="scream.jpg" style="float:right;">This is a paragraph.This paragraph contains an image</p>
+                </br>
+
+            </div>
+            <strong><p>Exercise 5</p></strong>
+            <div>
+                Add the correct HTML attribute to display the "smile.gif" image.</br>
+                &ltimg src = "smile.jpg"&gt</br>
+
+                <img src="smile.gif"></br>
+                </br>
+
+
+            </div>
+            <strong><p>Exercise 6/p></strong>
+            <div>
+                Specify an alternate text for the image.</br>
+                The alternate text should say "Smiley".</br>
+                Alternate text is useful when the image cannot be displayed, like when the page is read by a screen reader.</br>
+                &ltimg src="smile.gif" alt="smile"&gt</br>
+
+                <img src="smile.gif" alt="smile"></br>
+                </br>
+
+
+            </div>
+            <h3>Tables</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Add a table row with two table headers.</br>
+                The two table headers should have the value "Name" and "Age".</br>
+                <pre>
+                &lttable&gt
+                  &lttr&gt
+                    &ltth&gtName&lt/th&gt
+                    &ltth&gtAge&lt/th&gt
+                  &lt/tr&gt
+                  &lttr&gt
+                    &lttd&gtJill &gt
+                    &lttd&gt50&lt/td&gt
+                  &lt/tr>
+                &lt/table&gt
+                </pre>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill Smith</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+                </br>
+
+            </div>
+            <strong><p>Exercise 2</strong>
+            <div>
+
+                Add a table caption that says "Names".</br>
+                <pre>
+                &lttable&gt
+                  &ltcaption&gtNames&lt/caption&gt
+                  &lttr&gt
+                    &ltth&gtName&lt/th&gt
+                    &ltth&gtAge&lt/th&gt
+                  &lt/tr&gt
+                  &lttr&gt
+                    &lttd&gtJill &gt
+                    &lttd&gt50&lt/td&gt
+                  &lt/tr>
+                &lt/table&gt
+                </pre>
+                <table>
+                    <caption>Names</caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill Smith</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+                </br>
+            </div>
+            <strong><p>Exercise 3</strong>
+            <div>
+                Use CSS styles to make the table 300 pixels wide.</br>
+                <pre>
+                &lttable style="width:300px"&gt
+                  &ltcaption&gtNames&lt/caption&gt
+                    &lttr&gt
+                      &ltth&gtName&lt/th&gt
+                      &ltth&gtAge&lt/th&gt
+                    &lt/tr&gt
+                    &lttr&gt
+                      &lttd&gtJill &gt
+                      &lttd&gt50&lt/td&gt
+                    &lt/tr>
+                &lt/table&gt</pre>
+                <table>
+                    <caption style="width:300px">Names</caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill Smith</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+
+            </div>
+            <strong><p>Exercise 4</strong>
+            <div>
+                Add a table row at the end of the table, with two table cells. </br>
+                The two table cells should have the value "Eve Jackson" and "94".</br>
+                <pre>
+                &lttable&gt style="width:300px"&gt
+                  &ltcaption&gtNames&lt/caption&gt
+                  &lttr&gt
+                    &ltth&gtName&lt/th&gt
+                    &ltth&gtAge&lt/th&gt
+                  &lt/tr&gt
+                  &lttr&gt
+                    &lttd&gtJill &gt
+                    &lttd&gt50&lt/td&gt
+                  &lt/tr>
+                  &lt/tr&gt
+                  &lttr&gt
+                    &lttd&gtEve Jackson&gt
+                    &lttd&gt94&lt/td&gt
+                  &lt/tr>
+                &lt/table&gt
+                </pre>
+
+                <table style="width:300px" border-style="1">
+                    <caption>Names</caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Eve Jackson</td>
+                        <td>94</td>
+                    </tr>
+                </table>
+
+            </div>
+            <strong><p>Exercise 5</strong>
+            <div>
+                Use the correct HTML attribute to make the first TH element span two columns.</br>
+                <pre>
+                &lttable&gt
+                    &lttr&gt
+                      &ltth colspan = "2"&gtName&lt/th&gt
+                      &ltth&gtAge&lt/th&gt
+                    &lt/tr&gt
+                    &lttr&gt
+                      &lttd&gtJill &gt
+                      &lttd&gtSmith &gt
+                      &lttd&gt50&lt/td&gt
+                    &lt/tr&gt
+                    &lttr&gt
+                      &lttd&gtEve&gt
+                      &lttd&gtJackson&gt
+                      &lttd&gt94&lt/td&gt
+                    &lt/tr&gt
+                  &lt/table&gt</pre>
+
+                <table style="width:300px">
+                    <caption>Names</caption>
+                    <tr>
+                        <th colspan="2">Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Jill </td>
+                        <td>Smith</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Eve </td>
+                        <td>Jackson </td>
+                        <td>94</td>
+                    </tr>
+                </table>
+
+            </div>
+            <strong><p>Exercise 6</strong>
+            <div>
+
+                Use the correct HTML attribute to make the second TH element span two rows.</br>
+                <pre>
+                &lttable&gt
+                  &lttr&gt
+                    &ltth &gtName&lt/th&gt
+                    &lttd&gtJill Smith &gt
+                  &lt/tr&gt
+                  &lttr&gt
+                    &ltth rowspan="2"&gtAge&lt/th&gt
+                    &lttd&gt50&lt/td&gt
+                    &lttd&gt45&lt/td&gt
+                  &lt/tr&gt
+                &lt/table&gt
+                </pre>
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td>Jill Smith</td>
+                    </tr>
+                    <tr>
+                        <th>Phone</th>
+                        <td>555-77854</td>
+                    </tr>
+                    <tr>
+                        <td>555-77854</td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <h2>Table Caption</h2>
+            <table style="width:100%">
+                <caption>Monthly savings</caption>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$50</td>
+                </tr>
+            </table>
+
+
+
+            <h3>Lists</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Add a list item with the text "Coffee" inside the &ltul&gt.</br>
+                <pre>
+                  &ltul&gt
+                    &ltli&gt
+                      Coffee
+                    &lt/li&gt
+                  &lt/ul&gt
+                  </pre>
+
+                <ul>
+                    <li>Coffee</li>
+                </ul>
+
+            </div>
+            <strong><p>Exercise 2</strong>
+            <div>
+
+                Finish the HTML code to make an ordered list.</br>
+                <pre>
+                &ltol&gt
+                  &lti>&gCoffee&lt/li&gt
+                  &lti&gtTea&l/lti&gt
+                  &lti&gtMilk&l/lti&gt
+                &ltol&gt
+                </pre>
+
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <ol>
+            </div>
+
+            <strong><p>Exercise 3</strong>
+            <div>
+                Use CSS to display squares instead of bullets.</br>
+                <pre>
+                &ltul style="list-style-type:square;"&gt
+                  &lti>&gCoffee&lt/li&gt
+                  &lti&gtTea&l/lti&gt
+                  &lti&gtMilk&l/lti&gt
+                &ltul&gt
+                </pre>
+
+                <ul style="list-style-type:square;">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <ul>
+
+            </div>
+
+            <strong><p>Exercise 4<strong>
+            <div>
+                Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.</br>
+                <pre>
+                &ltol type="A"&gt
+                  &lti>&gCoffee&lt/li&gt
+                  &lti&gtTea&l/lti&gt
+                  &lti&gtMilk&l/lti&gt
+                &ltol&gt
+                </pre>
+               
+                <ol type="A">
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Milk</li>
+                <ol>
+
+            </div>
+
+            <strong><p>Exercise 5</strong>
+            <div>
+                Use the correct HTML attribute to display uppercase roman numbers.</br>
+                <pre>
+                &ltol type="I"&gt
+                  &lti>&gCoffee&lt/li&gt
+                  &lti&gtTea&l/lti&gt
+                  &lti&gtMilk&l/lti&gt
+                &ltol&gt
+              </pre>
+
+                <ol type="I">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                    <ol>
+
+            </div>
+            <strong><p>Exercise 6</strong>
+            <div>
+                Use the correct HTML elements to make a description of each term in the description list.</br>
+                <pre>
+                &ltdl&gt
+                  &ltdt&gtCoffee&lt/dt&gt
+                    &ltdd&gt- black hot drink&lt/dd&gt
+                  &ltdt&gtMilk&lt/dt&gt
+                    &ltdd&gt- white cold drink&lt/dd&gt
+                &lt/dl&gt
+                </pre>
+
+                <dl>
+                    <dt>Coffee</dt>
+                    <dd>- black hot drink</dd>
+                    <dt>Milk</dt>
+                    <dd>- white cold drink</dd>
+                </dl>
+
+            </div>
+
+
+
+            <h3>Classes</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Add a color property with the value "blue" inside the "special" class.</br>
+                <pre>
+                  &ltstyle&gt .special{q
+                    color:blue;
+                  }
+                  &lt/style&gt
+                  &ltp class = "specialq"&gtun parrafo de color azul&lt/p&gt</pre>
+
+                <style>
+                    .specialq {
+                        color: blue;
+                    }
+                </style>
+                <p class="specialq">My paragraph</p>
+            </div>
+            <strong><p>Exercise 2</strong>
+            <div>
+                Add the correct class to make the H5 element red.</br>
+                <pre>
+        &ltstyle&gt .mystyle {
+          color:red;
+        }
+        &lt/style&gt
+        &lth1 class="mystyle"&gtUn H5 de color rojo&lt/h1&gt</pre>
+
+                <style>
+                    .mystyle {
+                        color: red;
+                    }
+                </style>
+                <h1 class="mystyle">My Home page</h1>
+
+            </div>
+            <strong><p>Exercise 3</strong>
+            <div>
+                Add two classes to the H5 element, to make the background pink and the color red.</br>
+                <pre>
+        &ltstyle&gt .intro {
+          background:pink;
+        }
+        .special {
+            color:red;
+        }
+        &lt/style&gt
+        &lth1 class="intro special"&gt Un h1 with 2 clases: color red and background pink/h1&gt</pre>
+
+                <style>
+                    .intro {
+                        background: pink;
+                    }
+                    
+                    .special {
+                        color: red;
+                    }
+                </style>
+                <h1 class="intro special">My Home page</h1>
+
+            </div>
+
+
+
+            <h3>Iframe</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Add the correct HTML attribute to make the H1 element red.</br>
+                <pre>
+                &ltstyle&gt #myheader {
+                    color:red;
+                }
+                &lt/style&gt
+                &lth5 id="myheader"&gtUn h1 with "myheader"id, color red&lt/h1&gt</pre>
+
+                <style>
+                    #myheader {
+                        color: red;
+                    }
+                </style>
+                <h1 id="myheader">My Home page</h1>
+
+            </div>
+            <strong><p>Exercise 2</strong>
+            <div>
+                Create an id selector named "special".</br>
+                Add a color property with the value "blue" inside the "special" declaration block.</br>
+                <pre>
+                &ltstyle&gt
+                #special
+                {
+                color:blue;
+                }
+                &lt/style&gt
+                &ltp id="special"&gt My Paragraph/p&gt</pre>
+
+                <style>
+                    #special {
+                        color: blue;
+                    }
+                </style>
+                <p id="special">My Paragraph</p>
+
+            </div>
+            <h3> Iframe</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Create an iframe with a URL address that goes to https://www.w3schools.com.</br>
+                &ltiframe src="https://www.w3schools.com"&gt&lt/iframe&gt</br>
+
+                <iframe src="https://www.w3schools.com"></iframe>
+
+            </div>
+
+            <strong><p>Exercise 2</strong>
+            <div>
+                Use an iframe attribute to make the iframe 500 pixels wide.</br>
+                &ltiframe src="https://www.w3schools.com" width="500"&gt&lt/iframe&gt</br>
+
+                <iframe src="https://www.w3schools.com" width="500"></iframe>
+
+            </div>
+
+            <strong><p>Exercise 3</strong>
+            <div>
+                Use CSS to display an iframe with no borders.</br>
+                &ltiframe src="https://www.w3schools.com" style="border:none"&gt&lt/iframe&gt</br>
+
+                <iframe src="https://www.w3schools.com" style="border:none"></iframe>
+
+            </div>
+            <strong><p>Exercise 4</strong>
+            <div>
+                Create an iframe with a URL address that goes to "default.html".</br>
+                &ltiframe src="default.html"&gt&lt/iframe&gt</br>
+
+                <iframe src="default.html"></iframe>
+            </div>
+
+            <h3>Script</h3>
+            <strong><p>Exercise 1</strong>
+            <div>
+                Use JavaScript to change the HTML content of the &ltp&gt element to "Hello World!".</br>
+                <pre>
+                &ltp id="demo"&gtHi.&lt/p&gt
+                &ltscript&gt
+                  document.getElementById("demo").innerHTML = "Hello World!";
+                &lt/script&gt</br>
+                </pre>
+
+                <p id="demo">Hi.</p>
+                <script>
+                    document.getElementById("demo").innerHTML = "Hello World!";
+                </script>
+
+            </div>
+            <strong><p>Exercise 2</strong>
+            <div>
+                se JavaScript to change the text size of the &ltp&gt element to 40 pixels.</br>
+                <pre>
+                &ltp id="demo"&gtHi.&lt/p&gt
+                &ltscript&gt
+                document.getElementById("demo1").style.fontSize = "40px";
+                &lt/script&gt</br>
+                </pre>
+
+                <p id="demo1">Hi.</p>
+                <script>
+                    document.getElementById("demo1").style.fontSize = "40px";
+                </script>
+
+            </div>
+
+            <strong><p>Exercise 3</strong>
+            <div>
+                Use JavaScript to set the color of the &ltp&gt element to "red".</br>
+                <pre>
+                &ltp id="demo2"&gtHi.&lt/p&gt
+                &ltscript&gt
+                document.getElementById("demo2").style.color = "red";
+                &lt/script&gt</br>
+                </pre>
+
+                <p id="demo2">Hi.</p>
+                <script>
+                    document.getElementById("demo2").style.color = "red";
+                </script>
+
+            </div>
+
+            <strong><p>Exercise 4/<strong>
+            <div>
+                Use JavaScript to change the image source from "scream.png" to "smiley.gif".</br>
+                <pre>
+                &ltimg id="demo3" src="scream.png"&gt
+                &ltscript&gt
+                document.getElementById("demo3").src = "1.jpg";
+                &lt/script&gt</br>
+                </pre>
+               
+                <div>
+                  <img id="demo3" src="scream.png">
+                </div>
+                <script>
+                  document.getElementById("demo3").src = "smilley.gif";
+                </script>
+
+            </div>
+
+            <h2>JavaScript to set the color of the paragraph element to "red".</h2>
+            <p id="demo3">Hi.</p>
+
+            <script>
+                document.getElementById("demo3").style.color = "red";
+            </script>
+
+            
+
+            <h3>Computercode</h3>
+            <strong><p>Exercise 1<strong>
+             <div>
+                Define the text "var person;" as programming code.</br>
+                <pre>
+                  &ltp&gtCode example: &ltcode&gtvar person;&lt/code&gt&lt/p&gt
+                </pre>
+                
+                <p>Code example: <code>var person;</code></p>
+
+            </div>
+
+            <strong><p>Exercise 2<strong>
+            <div>
+                Define the text inside the &ltcode&gt element as preformatted text (to preserve spaces and line breaks).</br>
+                <pre>
+                &ltp&gtCode example:&lt/p&gt
+                &ltpre&gt
+                &ltcode&gtvar person = {
+                  firstName:"John",
+                  lastName:"Doe"
+                }&lt/code&gt
+                &lt/pre&gt</br>
+                </pre>
+                
+                <p>Code example:</p>
+                <pre>
+                <code>var person = {
+                  firstName:"John",
+                  lastName:"Doe"
+                }</code>
+                </pre>
+            </div>
+            <strong><p>Exercise 3<strong>
+                Define the character "x" in the equation as a variable.</br>
+        <pre>
+        &ltp&gtA simple math equation:
+        &ltvar&gtx&lt/var&gt = 3 + 2; &lt/p&gt
+        </pre>
+        
+        <p>A simple math equation:
+        <var>x</var> = 3 + 2; </p>
+           <div>
+                
+           </div>              
+           
+    <h3>Forms</h3>
+    <strong><p>Exercise 1<strong>
+        <div>
+            In the form below, add an input field with the type "button" and the value "OK".</br>
+            <pre>
+            &ltform&gt
+              &ltinput type="button" value="OK"&gt
+              &lt/form&gt
+            </pre>
+            
+            <form>
+            <input type="button" value="OK">
+            </form>        
+        </div>
+            In the form below, add an input field with the type "button" and the value "OK".</br>
+            <pre>
+            &ltform&gt
+                &ltinput type="button" value="OK"&gt
+                &lt/form&gt
+            </pre>
+            
+            <form>
+            <input type="button" value="OK">
+            </form>
+         </div>
+       <strong><p>Exercise 2<strong>
+        <div>
+                       
+       </div>
+       <strong><p>Exercise 3<strong>
+        <div>
+                       
+       </div>
+                
+
+        <h1>Form Attributes</h1>
+        <strong><p>Exercise 1<strong>
+            <div>
+                Add a submit button, and specify that the form should go to "/action_page.php".</br>
+            <pre>
+            &ltform action="/action_page.php"&gt
+            Name: &ltinput type="text" name="name"&gt &ltinput type="submit"&gt
+            &lt/form&gt</pre>
+           
+            <form action="/action_page.php">
+                Name: <input type="text" name="name">
+                <input type="submit">
+            </form>           
+           </div>
+
+           <strong><p>Exercise 2<strong>
+            <div>
+                Specify that the form is submitted using the "POST" method.</br>
+                <pre>
+                &ltform action="/action_page.php" method="post"&gt
+                Name: &ltinput type="text" name="name"&gt &ltinput type="submit"&gt
+                &lt/form&gt</pre>
+                
+                <form action="/action_page.php" method="post">
+                    Name: <input type="text" name="name">
+                    <input type="submit">
+                </form>           
+           </div>
+           
+           <h3>Form Elements</h3>
+           <strong><p>Exercise 1<strong>
+            <div>
+                In the form below, add an empty drop down list with the name "cars".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltselect name="cars"&gt &lt/select&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <select name="cars">
+                </select>
+                </form>
+
+            </div>
+            <strong><p>Exercise 2<strong>
+             <div>
+                In the form below, add two option elements to the drop down list.</br>
+                The first option must have the value "Volvo"</br>
+                The second option must have the value "Ford".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltselect name="cars"&gt
+                    &ltoption value="Volvo"&gtVolvo&lt/option&gt
+                    &ltoption value="Ford"&gtFord&lt/option&gt
+                  &lt/select&gt
+                &lt/form&gt
+                </pre>
+                <form action="/action_page.php">
+                <select name="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Ford">Ford</option>
+                </select>
+                </form>
+                    
+            </div>
+            <strong><p>Exercise 3<strong>
+            <div>
+                In the form below, add a text area with the name "note".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &lttextarea name="note">&lt/textarea&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <textarea name="note"></textarea>
+                </form>
+                        
+            </div>
+            <h3>Input Types</h3>
+            <strong><p>Exercise 1<strong>
+            <div>
+                In the form below, add an input field for text, with the name "username" .</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltinput type="text" name="username"&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <input type="text" name="username">
+                </form>
+
+            </div>
+            <strong><p>Exercise 2<strong>
+            <div>
+                In the form below, add a submit button with the value "Submit Form".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltinput type="text" name="username"&gt
+                  &ltinput type="button" value="Submit Form"&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <input type="text" name="username">
+                <input type="submit" value="Submit Form">
+                </form>
+                    
+            </div>
+            <strong><p>Exercise 3<strong>
+            <div>
+                Add two radio buttons with the name "color".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                Favorite color:
+                  Blue &ltinput value="blue" type="radio" name="color"&gt
+                  Red  &ltinput value="red" type="radio" name="color"&gt
+                &ltinput type="submit">
+                &lt/form>
+                </pre>
+                
+                <form action="/action_page.php">
+                  Favorite color:  Blue
+                  <input value="blue" type="radio" name="color">
+                  Red
+                  <input value="red" type="radio" name="color">
+                  <input type="submit">
+                </form>
+                        
+            </div>
+            <strong><p>Exercise 4<strong>
+            <div>
+                In the form below, add a &ltbutton&gt element with the text "Click Me".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltbutton>Click Me&lt/button&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <button>Click Me</button>
+                </form>
+                            
+            </div>
+
+            <strong><p>Exercise 5<strong>
+            <div>
+                1. In the form below, add a input field that can only contain numbers</br>
+                2. Use the correct input attributes to only allow numbers between 1 and 5.</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltinput type="number" min="1" max="5"&gt
+                &lt/form&gt
+                </pre>
+                <form action="/action_page.php">
+                <input type="number" min="1" max="5">
+                </form>     
+                                
+            </div>
+
+            <h3>Input Attributes</h3>
+            <strong><p>Exercise 1<strong>
+            <div>
+
+                In the input field below, add placeholder that says "Your name here".</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                &ltinput type="text" placeholder="Your name here"&gt
+                &lt/form&gt
+                </pre>
+                
+                <form action="/action_page.php">
+                <input type="text" placeholder="Your name here">
+                </form>
+            </div>
+            <strong><p>Exercise 2<strong>
+            <div>
+    
+                Disable the input field below.</br>
+                <pre>
+                    &ltform action="/action_page.php"&gt
+                    &ltinput type="text" disabled&gt
+                    &lt/form&gt
+                </pre>
+                    
+                    <form  action="/action_page.php">
+                    <input type="text" disabled>
+                    </form>
+            </div>
+            <strong><p>Exercise 3<strong>
+            <div>
+                Set the max numbers of characters allowed in the input field to 40.</br>
+                <pre>
+                &ltform action="/action_page.php"&gt
+                  &ltinput type="text" maxlength="40"&gt
+                &lt/form&gt
+                </pre>
+                <form action="/action_page.php">
+                 <input type="text" maxlength="40">
+                </form>
+            </div>
+
+            <strong><p>Exercise 4<strong>
+            <div>
+                Set the input field to be read only (meaning that the value cannot be changed).</br>
+                <pre>
+                &ltorm action="/action_page.php"&gt
+                  &ltinput type="text" readonly&gt
+                &lt/form&gt
+                </pre>
+                <form action="/action_page.php">
+                <input type="text" readonly>
+            </div>
+
+</body>
+
+</html>
